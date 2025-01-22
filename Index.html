@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Kany Business - Boutique en ligne</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Kany Business</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Accueil</a></li>
+        <li><a href="#">Produits</a></li>
+        <li><a href="#">À propos</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Bienvenue sur Kany Business</h2>
+    <p>Découvrez nos produits exceptionnels à des prix imbattables.</p>
+  </section>
+
+  <section class="products">
+    <h2>Nos Produits</h2>
+    <div class="product">
+      <img src="https://via.placeholder.com/200" alt="Produit 1">
+      <h3>Produit 1</h3>
+      <p>Description du produit 1.</p>
+      <button>Ajouter au panier</button>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/200" alt="Produit 2">
+      <h3>Produit 2</h3>
+      <p>Description du produit 2.</p>
+      <button>Ajouter au panier</button>
+    </div>
+    <!-- Ajoutez plus de produits ici -->
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Kany Business. Tous droits réservés.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+<!-- Exemple de bouton PayPal -->
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+  <input type="hidden" name="cmd" value="_xclick">
+  <input type="hidden" name="business" value="votre-email-paypal">
+  <input type="hidden" name="item_name" value="Produit 1">
+  <input type="hidden" name="amount" value="10.00">
+  <input type="hidden" name="currency_code" value="USD">
+  <input type="submit" value="Payer avec PayPal">
+</form>
